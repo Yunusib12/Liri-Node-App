@@ -38,16 +38,21 @@ inquirer.prompt(questions)
                     return val.toLowerCase();
                 }
             }];
-
             inquirer.prompt(helpNeed)
                 .then(help => {
-
+                    console.log(help.helpNeeded);
                     switch (help.helpNeeded) {
                         case "song infos":
                             let songTitle = [{
                                 type: 'input',
                                 name: 'songTitle',
-                                message: 'Type your song Title'
+                                message: 'Type your song Title',
+                                validate: function(val) {
+                                    if (!val == "") {
+                                        return true;
+                                    }
+                                    return val = "Type your song Title :)".red
+                                }
                             }]
                             inquirer.prompt(songTitle)
                                 .then(song => {
@@ -55,7 +60,21 @@ inquirer.prompt(questions)
                                 });
                             break;
                         case "movie infos":
-                            console.log('type the movie name');
+                            let movieTitle = [{
+                                type: 'input',
+                                name: 'movieTitle',
+                                message: 'Type your Movie Title',
+                                validate: function(val) {
+                                    if (!val == "") {
+                                        return true;
+                                    }
+                                    return val = "Type your movie Title :)".red
+                                }
+                            }]
+                            inquirer.prompt(movieTitle)
+                                .then(movie => {
+                                    func.myMovie(movie.movieTitle);
+                                });
                             break;
                         case "concert infos":
                             console.log('type concert name');
@@ -77,16 +96,9 @@ inquirer.prompt(questions)
 
             console.log(`
             
-    :(- ============ Sad to see you go =================== :(-
+    ${":(- ============ Sad to see you go =================== :(-".red}
         
                 `)
 
         }
     });
-
-
-
-
-
-
-// let songTitle = "Mama";
