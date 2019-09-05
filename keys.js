@@ -11,3 +11,8 @@ exports.spotify = {
 exports.imdb = {
     api: process.env.IMDB_API
 }
+
+//BAND IN TOWN
+exports.bdITown = {
+    api: process.env.BANDSINTOWN_API
+}

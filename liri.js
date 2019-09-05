@@ -7,6 +7,7 @@ require("dotenv").config(); //
 
 const func = require("./functions/functions");
 const inquirer = require("inquirer");
+const colors = require("colors");
 
 console.log("Welcome to ");
 func.myFiglet();
@@ -25,7 +26,9 @@ let questions = [{
 inquirer.prompt(questions)
     .then(answers => {
         console.log(`
-        L I R I at your service
+
+        ${"L I R I at your service".green} 
+        
         `);
 
         if (answers.toHaveFun) {
@@ -40,7 +43,7 @@ inquirer.prompt(questions)
             }];
             inquirer.prompt(helpNeed)
                 .then(help => {
-                    console.log(help.helpNeeded);
+
                     switch (help.helpNeeded) {
                         case "song infos":
                             let songTitle = [{
@@ -73,11 +76,27 @@ inquirer.prompt(questions)
                             }]
                             inquirer.prompt(movieTitle)
                                 .then(movie => {
+
                                     func.myMovie(movie.movieTitle);
                                 });
                             break;
                         case "concert infos":
-                            console.log('type concert name');
+                            let artistName = [{
+                                type: 'input',
+                                name: 'artistName',
+                                message: 'Type your Band / Artist Name',
+                                validate: function(val) {
+                                    if (!val == "") {
+                                        return true;
+                                    }
+                                    return val = "Type your Band / Artist Name :)".red
+                                }
+                            }]
+                            inquirer.prompt(artistName)
+                                .then(band => {
+                                    func.myBdITown(band.artistName);
+                                });
+
                             break;
                         case "do what it says":
                             console.log('do what');
