@@ -56,11 +56,17 @@ let showSongInfo = function(songTitle) {
                 });
             } else {
 
+                //Display this message 
                 console.log(`
                 
-            ${"Nothing found try again ".red} 
+                ${"Sorry we couldn't find what you looking for try again! ".red} 
+                
+                ${"Meantime here is some information you might be interrested in :)".green}
                 
                 `);
+
+                //if no result show information on this song
+                showSongInfo("The Sign Ace of Base");
             }
 
 
@@ -88,9 +94,14 @@ let getMovieInfo = function(movieTitle) {
 
                 console.log(`
                 
-                ${"Nothing found try again ".red} 
+                ${"Sorry we couldn't find what you looking for try again! ".red} 
+                
+                ${"Meantime here is some information you might be interrested in :)".green}
                 
                 `);
+
+                // if nothing 
+                getMovieInfo("Mr. Nobody");
             } else {
 
                 console.log(`
@@ -128,12 +139,14 @@ let getBdITown = function(bandName) {
 
     let bdITownApi = keys.bdITown.api;
     let queryUrl = `https://rest.bandsintown.com/artists/${bandName}/events?app_id=${bdITownApi}`;
+    let errMsg = false;
 
     axios.get(queryUrl)
         .then(function(response) {
 
             let datas = response.data;
-            console.log(datas.length);
+            // console.log(datas.length);
+            // console.log(datas);
             if (datas.length > 0) {
 
                 datas.forEach(elem => {
@@ -150,10 +163,16 @@ let getBdITown = function(bandName) {
             } else {
 
                 console.log(`
-
-                ${"Nothing found try again ".red} 
+                
+                ${"Sorry we couldn't find what you looking for try again! ".red} 
+                
+                ${"Meantime here is some information you might be interrested in :)".green}
                 
                 `);
+
+                //If no result 
+                console.log("me1");
+                getBdITown("Jarule");
             }
         })
         .catch(function(err) {
@@ -161,22 +180,36 @@ let getBdITown = function(bandName) {
             let errR = err.response;
 
             if (errR) {
-                if (errR.status == 404) {
-                    console.log(`
-    
-                    ${"Nothing found try again ".red} 
-                    
-                    `);
+                if (errR.status == 404 || errR.status == 400) {
+
+                    errMsg = true;
+
                 }
-                console.log(errR.data);
-                console.log(errR.status);
-                console.log(errR.headers);
-            } else if (err.request) {
-                console.log(err.request);
-            } else {
-                console.log("Error", err.message);
+                // console.log("1", errR.data);
+                // console.log("2", errR.status);
+                // console.log("3", errR.headers);
             }
-            console.log(err.config);
+            // else if (err.request) {
+            //     //console.log("4", err.request);
+            // } else {
+            //     //console.log("Error", err.message);
+            // }
+            // console.log("555", err.config);
+
+            if (errMsg == true || errMsg == false) {
+
+                console.log(`
+    
+                ${"Sorry we couldn't find what you looking for try again! ".red} 
+    
+                ${"Meantime here is some information you might be interrested in :)".green}
+    
+                `);
+
+                //If no result 
+                getBdITown("Jarule");
+            }
+
         });
 
 };
