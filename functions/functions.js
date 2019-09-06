@@ -216,8 +216,20 @@ let getBdITown = function(bandName) {
 
 // Function Do What it say
 
-let doWhatItSays = function(doWhat) {
+let doWhatItSays = function() {
 
+    fs.readFile("./random.txt", "utf-8", function(error, data) {
+
+        if (error) {
+            return console.log(error);
+        }
+        let dataArr = data.split(",");
+        let action = dataArr[0];
+        let searchElem = dataArr[1];
+
+        console.log(action, searchElem);
+
+    });
 
 
 
@@ -227,5 +239,6 @@ module.exports = {
     myFiglet: myFiglet,
     mySpotify: showSongInfo,
     myMovie: getMovieInfo,
-    myBdITown: getBdITown
+    myBdITown: getBdITown,
+    myDoWhat: doWhatItSays
 }

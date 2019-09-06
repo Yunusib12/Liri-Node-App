@@ -100,6 +100,7 @@ inquirer.prompt(questions)
                             break;
                         case "do what it says":
                             console.log('do what');
+                            func.myDoWhat();
                             break;
                         default:
                             console.log(`Invalid Option. Please type any of the following options: 
