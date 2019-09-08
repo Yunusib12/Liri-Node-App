@@ -8,20 +8,23 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 ### LIRI in action
 
-![LIRI in action](https://yunusib12.github.io/liri-node-app/assets/images/liri-bot-inaction.gif "LIRI in action")
+![LIRI in action](https://yunusibrahim.me/liri-node-app/assets/images/liri-bot-inaction.gif)
 
 ### Want to Try? 
 
-To Start the Trivia Game pick any Category that you want to be question on. You have 30 seconds to answer each question and a counter will be displayed to show how much time is reamining. The answer to each question is displayed afterwards whether you selected the correct answer, the incorrect answer or if no answer is selected before time ran out. If no answer is selected before the timer runs out, the trivia will display other category and you will advance to the next question. At the end of the game, you will be shown the number of correct answers, the number of incorrect answers and any questions that went unanswered.
-
-
-* **WIN**: You win the game by replying the correct answer.
-
-* **LOSS**: You lose the game each time your answer is not correct.
+1. Clone the repository
+2. Run npm install, all the required packages will be install:
+3. Create a .env file in the same directory as the rest of the files. In the .env file should be:
+~~~~
+SPOTIFY_ID="ID goes here"
+SPOTIFY_SECRET="Secret goes here"
+IMDB_API="Api key goes here"
+BANDSINTOWN_API="Api key goes here"
+~~~~
 
 ### Screenshot
 
-##### Requests and Results handling
+#### Requests and Results handling
 
 **Spotify**: When searching for a song will be prompt to type the song name 
 
