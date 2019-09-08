@@ -31,7 +31,9 @@ BANDSINTOWN_API="Api key goes here"
 
 #### Functionality of each choice
 
-+ Song Info 'song name'
+![Screenshot](./assets/images/liri-fonctionalities.png)
+
+1. Song Info 'song name'
 
 This will show the following about the song in your terminal/bash window:
 
@@ -42,14 +44,14 @@ This will show the following about the song in your terminal/bash window:
 
 If no song is provided then the song **"The Sign"** will be searched instead
 
-+ Concert Info 'concert or band name'
+2. Concert Info 'concert or band name'
 
 This will show the following information about each event to your terminal/bash window:
 - Name of the Venue
 - Location of the Venue
 - Date of the Event
 
-+ Movie Info 'movie name'
+3. Movie Info 'movie name'
 
 This will output the following information to your terminal/bash window:
 
@@ -64,13 +66,15 @@ This will output the following information to your terminal/bash window:
 
 If no movie is provided then the movie **"Mr. Nobody."** will be searched instead
 
-+ do what it says
+4. do what it says
 
-The program will take the text inside of random.txt and use it to call the first command with the second part as it's parameter
+The program will take the text inside of **random.txt** and use it to call the first command with the second part as it's parameter
 Currently in random.txt, the following text is there:
+~~~
 spotify-this-song,"I Want it That Way"
+~~~
 
-This would call the spotify-this-song function and pass in "I Want it That Way" as the song.
+This would call the spotify-this-song function and pass in **"I Want it That Way"** as the song.
 
 ### Screenshot
 
@@ -78,7 +82,19 @@ This would call the spotify-this-song function and pass in "I Want it That Way" 
 
 **Spotify**: When searching for a song will be prompt to type the song name 
 
-![Screenshot](https://yunusib12.github.io/TriviaGame/assets/images/trivia-thumbnail.png)
+![Screenshot](./assets/images/trivia-thumbnail.png)
+
+**Band in town**: When searching for a 'Band / Artist' will be prompt to type the 'Band / Artist' name 
+
+![Screenshot](./assets/images/trivia-thumbnail.png)
+
+**OMDB**: When searching for a movie will be prompt to type the movie name 
+
+![Screenshot](./assets/images/trivia-thumbnail.png)
+
+**Do what it says**: Will run the command inside the file **random.txt** 
+
+![Screenshot](./assets/images/trivia-thumbnail.png)
 
 ### Technologies Used
 
