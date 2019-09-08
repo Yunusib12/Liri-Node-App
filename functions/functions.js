@@ -89,9 +89,10 @@ let getMovieInfo = function(movieTitle) {
         .then(function(response) {
 
             let datas = response.data;
-
-            if (datas.Response === "False") {
-
+            //console.log(datas);
+            console.log(datas.Response);
+            if (!datas.Response) {
+                console.log("am false");
                 console.log(`
                 
                 ${"Sorry we couldn't find what you looking for try again! ".red} 
@@ -103,33 +104,32 @@ let getMovieInfo = function(movieTitle) {
                 // if nothing 
                 getMovieInfo("Mr. Nobody");
             } else {
-
+                console.log(queryUrl);
                 console.log(`
 ${"Title:".cyan} ${datas.Title}, 
-${"Release Year:".cyan} ${datas.Released}, 
-${"IMDB Rating:".cyan} ${datas.Ratings[0].Value}, 
-${"Rotten Tomatoes Rating:".cyan} ${datas.Ratings[1].Value},
+${"Release Year:".cyan} ${datas.Released},
 ${"Country:".cyan} ${datas.Country},
 ${"Language:".cyan} ${datas.Language},
 ${"Actors:".cyan} ${datas.Actors},
-${"Plot:".cyan} ${datas.Plot}
-    
-====================================================================`);
-
+${"Plot:".cyan} ${datas.Plot}`);
+                datas.Ratings.forEach(function(elem) {
+                    console.log(`${elem.Source.cyan} :  ${elem.Value}`);
+                });
+                console.log(`
+====================================================================`)
             }
-
         })
         .catch(function(err) {
             if (err.response) {
-                console.log(err.response.data);
-                console.log(err.response.status);
-                console.log(err.response.headers);
-            } else if (err.request) {
-                console.log(err.request);
+                console.log("1", err.response.data);
+                console.log("2", err.response.status);
+                console.log("3", err.response.headers);
+            } else if ("4", err.request) {
+                console.log("5", err.request);
             } else {
                 console.log("Error", err.message);
             }
-            console.log(err.config);
+            console.log("6", err.config);
         });
 }
 
@@ -145,8 +145,6 @@ let getBdITown = function(bandName) {
         .then(function(response) {
 
             let datas = response.data;
-            // console.log(datas.length);
-            // console.log(datas);
             if (datas.length > 0) {
 
                 datas.forEach(elem => {
@@ -171,7 +169,6 @@ let getBdITown = function(bandName) {
                 `);
 
                 //If no result 
-                console.log("me1");
                 getBdITown("Jarule");
             }
         })
@@ -228,10 +225,34 @@ let doWhatItSays = function() {
         let searchElem = dataArr[1];
 
         console.log(action, searchElem);
+        switch (action) {
+            case "spotify-this-song":
+                showSongInfo(searchElem);
+                break;
+            case "movie-this":
+                getMovieInfo(searchElem);
+                break;
+            case "concert-this":
+                getBdITown(searchElem);
+                break;
+            default:
+                console.log("Nothing to do!");
+                break;
+        }
 
     });
+};
 
+// Log result into log.txt file 
 
+let logIt = function(dataToLog) {
+
+    let divider = "\n------------------------------------------------------------\n\n";
+
+    fs.appendFile("./log.txt", dataToLog, function(error) {
+        if (error) throw error;
+        //console.log(dataToLog);
+    });
 
 };
 
@@ -240,5 +261,6 @@ module.exports = {
     mySpotify: showSongInfo,
     myMovie: getMovieInfo,
     myBdITown: getBdITown,
-    myDoWhat: doWhatItSays
+    myDoWhat: doWhatItSays,
+    myLog: logIt
 }
