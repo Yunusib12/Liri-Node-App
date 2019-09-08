@@ -24,6 +24,53 @@ BANDSINTOWN_API="Api key goes here"
 
 ### LIRI Available functions
 
+* Search for Song information
+* Search for Concert information
+* Search for Movie information
+* Do what it says
+
+#### Functionality of each choice
+
++ Song Info 'song name'
+
+This will show the following about the song in your terminal/bash window:
+
+- Artist(s)
+- Song Name
+- Album of the Song
+- Song Preview Link
+
+If no song is provided then the song **"The Sign"** will be searched instead
+
++ Concert Info 'concert or band name'
+
+This will show the following information about each event to your terminal/bash window:
+- Name of the Venue
+- Location of the Venue
+- Date of the Event
+
++ Movie Info 'movie name'
+
+This will output the following information to your terminal/bash window:
+
+- Title of the Movie
+- Year the Movie was Released
+- The IMDB Rating
+- Country the Movie was made in
+- Language the Movie is in
+- Plot of the Movie
+- Actors in the Movie
+- The Rotten Tomatoes Rating
+
+If no movie is provided then the movie **"Mr. Nobody."** will be searched instead
+
++ do what it says
+
+The program will take the text inside of random.txt and use it to call the first command with the second part as it's parameter
+Currently in random.txt, the following text is there:
+spotify-this-song,"I Want it That Way"
+
+This would call the spotify-this-song function and pass in "I Want it That Way" as the song.
 
 ### Screenshot
 
