@@ -8,7 +8,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 ### LIRI in action
 
-![LIRI in action](https://yunusibrahim.me/liri-node-app/assets/images/liri-bot-inaction.gif)
+<img src="/assets/images/liri-bot-inaction.gif?raw=true" width="640px">
 
 ### Want to Try? 
 
@@ -21,6 +21,9 @@ SPOTIFY_SECRET="Secret goes here"
 IMDB_API="Api key goes here"
 BANDSINTOWN_API="Api key goes here"
 ~~~~
+
+### LIRI Available functions
+
 
 ### Screenshot
 
