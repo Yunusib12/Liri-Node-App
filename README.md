@@ -8,7 +8,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 ### LIRI in action
 
-![LIRI in action](https://liri.yunusibrahim.me/assets/images/liri-bot-inaction.gif "LIRI in action")
+![LIRI in action](./assets/images/liri-bot-inaction.gif "LIRI in action")
 
 ### How to Play
 
