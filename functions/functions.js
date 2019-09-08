@@ -48,10 +48,10 @@ let showSongInfo = function(songTitle) {
                 songs.forEach(elem => {
 
                     console.log(`
- Artist: ${elem.artists[0].name}, 
- Song: ${elem.name}, 
- Album: ${elem.album.name}, 
- Spotify Link: ${elem.external_urls.spotify}
+ ${"Artist:".cyan} ${elem.artists[0].name}, 
+ ${"Song:".cyan} ${elem.name}, 
+ ${"Album:".cyan} ${elem.album.name}, 
+ ${"Spotify Link:".cyan} ${elem.external_urls.spotify}
  ====================================================================`);
                 });
             } else {
@@ -244,16 +244,26 @@ let doWhatItSays = function() {
 };
 
 // Log result into log.txt file 
+const divider = "\n------------------------------------------------------------\n\n";
 
-let logIt = function(dataToLog) {
+const logIt = (data) => {
+    console.log("Starting log file write ...");
 
-    let divider = "\n------------------------------------------------------------\n\n";
+    // return a new promise
+    return new Promise((resolve, reject) => {
+        fs.appendFile("log.txt", data + divider, (err) => {
+            console.log("Log file write completed.");
 
-    fs.appendFile("./log.txt", dataToLog, function(error) {
-        if (error) throw error;
-        //console.log(dataToLog);
+            if (err) {
+                // invoke reject to complete the promise w/ failure (.catch)
+                reject(err);
+            } else {
+                // invoke resolve to complete the promise successfully (.then)
+                // resolve w/ a json object indicating how many bytes were written
+                resolve({ bytesWritten: data.length });
+            }
+        });
     });
-
 };
 
 module.exports = {
