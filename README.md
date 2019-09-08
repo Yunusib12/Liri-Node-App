@@ -8,7 +8,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 ### LIRI in action
 
-<img src="/assets/images/liri-bot-inaction.gif?raw=true" width="640px">
+<img src="/assets/images/liri-bot-inaction.gif?raw=true">
 
 ### Want to Try? 
 
