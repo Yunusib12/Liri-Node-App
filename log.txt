@@ -1,33 +1,45 @@
-[object Object],[object Object],[object Object],[object Object],[object Object]
+Artist: The Revivalists
+
+Song: Wish I Knew You
+
+Album: Men Amongst Mountains
+
+Spotify Link: https://open.spotify.com/track/2EWpa5XnAuSn0sIkSSIhYk
 ------------------------------------------------------------
 
-[object Object]
+Artist: Riley Green
+
+Song: I Wish Grandpas Never Died
+
+Album: I Wish Grandpas Never Died
+
+Spotify Link: https://open.spotify.com/track/2pCHYIFhPlswuaDIFlLlDz
 ------------------------------------------------------------
 
-[object Object]
+Artist: Mahalia
+
+Song: I Wish I Missed My Ex
+
+Album: I Wish I Missed My Ex
+
+Spotify Link: https://open.spotify.com/track/4jwP0pxx7su04FYc6J12EQ
 ------------------------------------------------------------
 
-[object Object]
+Artist: Skee-Lo
+
+Song: I Wish
+
+Album: I Wish
+
+Spotify Link: https://open.spotify.com/track/3LklW07tvdx2AHsgfi1Mng
 ------------------------------------------------------------
 
-[object Object]
-------------------------------------------------------------
+Artist: Loote
 
-[object Object]
-------------------------------------------------------------
+Song: Wish I Never Met You
 
-2Pac
-------------------------------------------------------------
+Album: single.
 
-2Pac
-------------------------------------------------------------
-
-2Pac
-------------------------------------------------------------
-
-2Pac
-------------------------------------------------------------
-
-2Pac
+Spotify Link: https://open.spotify.com/track/6Wrx0ZDaB3dxBDl1ZnddXT
 ------------------------------------------------------------
 

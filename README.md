@@ -12,9 +12,9 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 ### Want to Try? 
 
-1. Clone the repository
-2. Run npm install, all the required packages will be install:
-3. Create a .env file in the same directory as the rest of the files. In the .env file should be:
+**1.** Clone the repository
+**2.** Run npm install, all the required packages will be install:
+**3.** Create a .env file in the same directory as the rest of the files. In the .env file should be:
 ~~~~
 SPOTIFY_ID="ID goes here"
 SPOTIFY_SECRET="Secret goes here"
@@ -33,7 +33,7 @@ BANDSINTOWN_API="Api key goes here"
 
 ![Screenshot](./assets/images/liri-fonctionalities.png)
 
-1. Song Info 'song name'
+**1. Song Info 'song name'**
 
 This will show the following about the song in your terminal/bash window:
 
@@ -44,14 +44,14 @@ This will show the following about the song in your terminal/bash window:
 
 If no song is provided then the song **"The Sign"** will be searched instead
 
-2. Concert Info 'concert or band name'
+**2. Concert Info 'concert or band name'**
 
 This will show the following information about each event to your terminal/bash window:
 - Name of the Venue
 - Location of the Venue
 - Date of the Event
 
-3. Movie Info 'movie name'
+**3. Movie Info 'movie name'**
 
 This will output the following information to your terminal/bash window:
 
@@ -66,7 +66,7 @@ This will output the following information to your terminal/bash window:
 
 If no movie is provided then the movie **"Mr. Nobody."** will be searched instead
 
-4. do what it says
+**4. do what it says**
 
 The program will take the text inside of **random.txt** and use it to call the first command with the second part as it's parameter
 Currently in random.txt, the following text is there:

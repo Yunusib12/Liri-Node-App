@@ -53,6 +53,17 @@ let showSongInfo = function(songTitle) {
  ${"Album:".cyan} ${elem.album.name}, 
  ${"Spotify Link:".cyan} ${elem.external_urls.spotify}
  ====================================================================`);
+
+                    let dataToLog = [
+                        "Artist: " + elem.artists[0].name,
+                        "Song: " + elem.name,
+                        "Album: " + elem.album.name,
+                        "Spotify Link: " + elem.external_urls.spotify
+                    ].join("\n\n");
+
+                    // log datas
+                    logIt(dataToLog);
+
                 });
             } else {
 
@@ -89,10 +100,8 @@ let getMovieInfo = function(movieTitle) {
         .then(function(response) {
 
             let datas = response.data;
-            //console.log(datas);
-            console.log(datas.Response);
+
             if (!datas.Response) {
-                console.log("am false");
                 console.log(`
                 
                 ${"Sorry we couldn't find what you looking for try again! ".red} 
@@ -104,7 +113,7 @@ let getMovieInfo = function(movieTitle) {
                 // if nothing 
                 getMovieInfo("Mr. Nobody");
             } else {
-                console.log(queryUrl);
+
                 console.log(`
 ${"Title:".cyan} ${datas.Title}, 
 ${"Release Year:".cyan} ${datas.Released},
@@ -112,11 +121,25 @@ ${"Country:".cyan} ${datas.Country},
 ${"Language:".cyan} ${datas.Language},
 ${"Actors:".cyan} ${datas.Actors},
 ${"Plot:".cyan} ${datas.Plot}`);
+
                 datas.Ratings.forEach(function(elem) {
                     console.log(`${elem.Source.cyan} :  ${elem.Value}`);
                 });
+
                 console.log(`
 ====================================================================`)
+
+                let moviedatasLog = [
+                    "Title: " + datas.Title,
+                    "Release Year: " + datas.Released,
+                    "Country: " + datas.Country,
+                    "Language: " + datas.Language,
+                    "Actors: " + datas.Actors,
+                    "Plot: " + datas.Plot
+                ].join("\n\n");
+
+                // log datas
+                logIt(moviedatasLog);
             }
         })
         .catch(function(err) {
@@ -246,12 +269,12 @@ let doWhatItSays = function() {
 const divider = "\n------------------------------------------------------------\n\n";
 
 const logIt = (data) => {
-    console.log("Starting log file write ...");
+    //console.log("Starting log file write ...");
 
     // return a new promise
     return new Promise((resolve, reject) => {
         fs.appendFile("log.txt", data + divider, (err) => {
-            console.log("Log file write completed.");
+            //console.log("Log file write completed.");
 
             if (err) {
                 // invoke reject to complete the promise w/ failure (.catch)
