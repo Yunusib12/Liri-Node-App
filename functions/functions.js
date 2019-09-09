@@ -224,7 +224,6 @@ let doWhatItSays = function() {
         let action = dataArr[0];
         let searchElem = dataArr[1];
 
-        console.log(action, searchElem);
         switch (action) {
             case "spotify-this-song":
                 showSongInfo(searchElem);

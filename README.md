@@ -82,19 +82,19 @@ This would call the spotify-this-song function and pass in **"I Want it That Way
 
 **Spotify**: When searching for a song will be prompt to type the song name 
 
-![Screenshot](./assets/images/trivia-thumbnail.png)
+![Screenshot](./assets/images/liri-song.png)
 
 **Band in town**: When searching for a 'Band / Artist' will be prompt to type the 'Band / Artist' name 
 
-![Screenshot](./assets/images/trivia-thumbnail.png)
+![Screenshot](./assets/images/liri-concert.png)
 
 **OMDB**: When searching for a movie will be prompt to type the movie name 
 
-![Screenshot](./assets/images/trivia-thumbnail.png)
+![Screenshot](./assets/images/liri-movie.png)
 
 **Do what it says**: Will run the command inside the file **random.txt** 
 
-![Screenshot](./assets/images/trivia-thumbnail.png)
+![Screenshot](./assets/images/liri-do-what-it-says.png)
 
 ### Technologies Used
 
