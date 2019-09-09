@@ -43,3 +43,346 @@ Album: single.
 Spotify Link: https://open.spotify.com/track/6Wrx0ZDaB3dxBDl1ZnddXT
 ------------------------------------------------------------
 
+Title: The Matrix
+
+Release Year: 31 Mar 1999
+
+Country: USA
+
+Language: English
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: KSPO Dome
+
+Venue Location: Songpa-gu South Korea
+
+Date Event: 09-25-2019, 8:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101425780?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Mercedes-Benz Arena
+
+Venue Location: Shanghai China
+
+Date Event: 09-28-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101308332?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Singapore Indoor Stadium
+
+Venue Location: Singapore Singapore
+
+Date Event: 10-04-2019, 6:00:08 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085894?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Impact Arena
+
+Venue Location: Bangkok Thailand
+
+Date Event: 10-01-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085889?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Sentul International Convention Center
+
+Venue Location: Jakarta Indonesia
+
+Date Event: 10-08-2019, 6:00:15 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085929?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Axiata Arena
+
+Venue Location: Kuala Lumpur Malaysia
+
+Date Event: 10-05-2019, 6:00:15 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085913?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Cotai Arena
+
+Venue Location: Macao China
+
+Date Event: 10-13-2019, 6:00:29 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085944?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Yokohama Arena
+
+Venue Location: Yokohama-shi Japan
+
+Date Event: 10-16-2019, 6:00:40 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085951?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Adelaide Entertainment Centre
+
+Venue Location: Adelaide Australia
+
+Date Event: 10-26-2019, 7:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100124547?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Mall of Asia Arena
+
+Venue Location: Manila Philippines
+
+Date Event: 10-10-2019, 6:00:25 pm
+
+Buy Ticket: https://www.bandsintown.com/t/101085938?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Rod Laver Arena
+
+Venue Location: Melbourne Australia
+
+Date Event: 10-29-2019, 7:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100124577?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Rod Laver Arena
+
+Venue Location: Melbourne Australia
+
+Date Event: 10-30-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100158866?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Qudos Bank Arena
+
+Venue Location: Sydney Australia
+
+Date Event: 11-02-2019, 7:00:52 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100124613?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Rod Laver Arena
+
+Venue Location: Melbourne Australia
+
+Date Event: 10-31-2019, 7:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100248362?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Perth Arena 
+
+Venue Location: Perth Australia
+
+Date Event: 10-23-2019, 5:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100124537?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Entertainment Centre Brisbane
+
+Venue Location: Brisbane Australia
+
+Date Event: 11-06-2019, 2:06:14 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100124641?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Qudos Bank Arena
+
+Venue Location: Sydney Australia
+
+Date Event: 11-03-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100158861?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Allianz Parque
+
+Venue Location: Agua Branca Brazil
+
+Date Event: 11-29-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100858393?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Allianz Parque
+
+Venue Location: Sao Paulo Brazil
+
+Date Event: 11-30-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704708?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Jeunesse Arena
+
+Venue Location: Rio De Janeiro Brazil
+
+Date Event: 12-03-2019, 6:00:52 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704714?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: BA Arena
+
+Venue Location: Buenos Aires Argentina
+
+Date Event: 12-07-2019, 6:00:05 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100799142?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: BA Arena
+
+Venue Location: Buenos Aires Argentina
+
+Date Event: 12-06-2019, 6:00:48 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704720?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Movistar Arena
+
+Venue Location: Santiago Chile
+
+Date Event: 12-10-2019, 6:00:45 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704727?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Spark Arena
+
+Venue Location: Auckland New Zealand
+
+Date Event: 11-09-2019, 7:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100124656?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Movistar Arena
+
+Venue Location: Santiago Chile
+
+Date Event: 12-11-2019, 6:00:04 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100777774?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Jockey Club Del Peru
+
+Venue Location: Santiago De Surco Peru
+
+Date Event: 12-14-2019, 6:00:31 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704736?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Auditorio Citibanamex
+
+Venue Location: Monterrey Mexico
+
+Date Event: 12-17-2019, 6:00:46 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704740?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Palacio de los Deportes
+
+Venue Location: Mexico City Mexico
+
+Date Event: 12-19-2019, 6:00:33 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100773878?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Palacio de los Deportes
+
+Venue Location: Nuevo Mexico Mexico
+
+Date Event: 12-20-2019, 6:00:25 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100704742?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Shawn Mendes
+
+Name of the Venue: Palacio de los Deportes
+
+Venue Location: Nuevo Mexico Mexico
+
+Date Event: 12-21-2019, 6:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/100760275?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+

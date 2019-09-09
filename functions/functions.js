@@ -179,6 +179,17 @@ let getBdITown = function(bandName) {
  ${"Buy Ticket:".cyan} ${elem.offers[0].url}                    
  ====================================================================`);
 
+
+                    let concertDatasLog = [
+                        "Line up: " + elem.lineup,
+                        "Name of the Venue: " + elem.venue.name,
+                        "Venue Location: " + elem.venue.city + " " + elem.venue.country,
+                        "Date Event: " + moment(elem.datetime).format("MM-DD-YYYY, h:mm:ss a"),
+                        "Buy Ticket: " + elem.offers[0].url
+                    ].join("\n\n");
+
+                    // log datas
+                    logIt(concertDatasLog);
                 });
 
             } else {
