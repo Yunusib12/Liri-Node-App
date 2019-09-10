@@ -60,6 +60,7 @@ inquirer.prompt(questions)
                             inquirer.prompt(songTitle)
                                 .then(song => {
                                     func.mySpotify(song.songTitle);
+                                    func.myWriteF("song", song.songTitle);
                                 });
                             break;
                         case "movie infos":
@@ -76,8 +77,8 @@ inquirer.prompt(questions)
                             }]
                             inquirer.prompt(movieTitle)
                                 .then(movie => {
-
                                     func.myMovie(movie.movieTitle);
+                                    func.myWriteF("movie", movie.movieTitle);
                                 });
                             break;
                         case "concert infos":
@@ -95,6 +96,7 @@ inquirer.prompt(questions)
                             inquirer.prompt(artistName)
                                 .then(band => {
                                     func.myBdITown(band.artistName);
+                                    func.myWriteF("concert", band.artistName);
                                 });
 
                             break;

@@ -386,3 +386,172 @@ Date Event: 12-21-2019, 6:00:00 pm
 Buy Ticket: https://www.bandsintown.com/t/100760275?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 ------------------------------------------------------------
 
+Artist: Zara Larsson
+
+Song: Ruin My Life
+
+Album: Ruin My Life
+
+Spotify Link: https://open.spotify.com/track/5tAa8Uaqr4VvA3693mbIhU
+------------------------------------------------------------
+
+Artist: Nipsey Hussle
+
+Song: Grinding All My Life
+
+Album: Victory Lap
+
+Spotify Link: https://open.spotify.com/track/3R9j8urSPiBbapNbyuSYkE
+------------------------------------------------------------
+
+Artist: Rascal Flatts
+
+Song: Life is a Highway
+
+Album: Me And My Gang
+
+Spotify Link: https://open.spotify.com/track/2Fs18NaCDuluPG1DHGw1XG
+------------------------------------------------------------
+
+Artist: American Authors
+
+Song: Best Day Of My Life
+
+Album: Oh, What A Life
+
+Spotify Link: https://open.spotify.com/track/5Hroj5K7vLpIG4FNCRIjbP
+------------------------------------------------------------
+
+Artist: One Direction
+
+Song: Story of My Life
+
+Album: Midnight Memories (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/4nVBt6MZDDP6tRVdQTgxJg
+------------------------------------------------------------
+
+Artist: Nipsey Hussle
+
+Song: Grinding All My Life
+
+Album: Victory Lap
+
+Spotify Link: https://open.spotify.com/track/3R9j8urSPiBbapNbyuSYkE
+------------------------------------------------------------
+
+Artist: Foo Fighters
+
+Song: All My Life
+
+Album: One By One (Expanded Edition)
+
+Spotify Link: https://open.spotify.com/track/6tsojOQ5wHaIjKqIryLZK6
+------------------------------------------------------------
+
+Artist: K-Ci & JoJo
+
+Song: All My Life
+
+Album: Love Always
+
+Spotify Link: https://open.spotify.com/track/5GorFaKkP2mLREQvhSblIg
+------------------------------------------------------------
+
+Artist: Kelly Clarkson
+
+Song: My Life Would Suck Without You
+
+Album: All I Ever Wanted
+
+Spotify Link: https://open.spotify.com/track/4Dm32oO01YpIubCHaAtKkN
+------------------------------------------------------------
+
+Artist: Ryan Caraveo
+
+Song: All My Life
+
+Album: Butterfly Boy
+
+Spotify Link: https://open.spotify.com/track/010TY7wbNlpeAIpx5ZRKNf
+------------------------------------------------------------
+
+Title: The Matrix
+
+Release Year: 31 Mar 1999
+
+Country: USA
+
+Language: English
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+------------------------------------------------------------
+
+Line up: Ja Rule
+
+Name of the Venue: Dos De Oro Nightclub
+
+Venue Location: Yakima United States
+
+Date Event: 10-04-2019, 8:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/1016629446?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Ja Rule,Ashanti,Ashanti/Ja Rule
+
+Name of the Venue: Concrete Street Amphitheater
+
+Venue Location: Corpus Christi United States
+
+Date Event: 10-05-2019, 8:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/1016674962?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Ja Rule,Chingy,Ashanti,Mims,Baby Bash,Bone Thugs-n-Harmony
+
+Name of the Venue: Bailiwick in The Orleans Hotel
+
+Venue Location: Las Vegas United States
+
+Date Event: 10-26-2019, 7:30:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/1015113741?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Ja Rule
+
+Name of the Venue: Dos De Oro Nightclub
+
+Venue Location: Yakima United States
+
+Date Event: 10-04-2019, 8:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/1016629446?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Ja Rule,Ashanti,Ashanti/Ja Rule
+
+Name of the Venue: Concrete Street Amphitheater
+
+Venue Location: Corpus Christi United States
+
+Date Event: 10-05-2019, 8:00:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/1016674962?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+
+Line up: Ja Rule,Chingy,Ashanti,Mims,Baby Bash,Bone Thugs-n-Harmony
+
+Name of the Venue: Bailiwick in The Orleans Hotel
+
+Venue Location: Las Vegas United States
+
+Date Event: 10-26-2019, 7:30:00 pm
+
+Buy Ticket: https://www.bandsintown.com/t/1015113741?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+------------------------------------------------------------
+

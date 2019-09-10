@@ -257,7 +257,7 @@ let doWhatItSays = function() {
         let dataArr = data.split(",");
         let action = dataArr[0];
         let searchElem = dataArr[1];
-
+        console.log(action, searchElem);
         switch (action) {
             case "spotify-this-song":
                 showSongInfo(searchElem);
@@ -299,11 +299,42 @@ const logIt = (data) => {
     });
 };
 
+
+// FUnction writing inside a file
+let writeFile = function(dWrite, title) {
+
+    let textWrite;
+
+    switch (dWrite) {
+        case "song":
+            textWrite = `spotify-this-song,"${title}"`;
+            break;
+        case "concert":
+            textWrite = `concert-this,"${title}"`;
+            break;
+        case "movie":
+            textWrite = `movie-this,"${title}"`;
+            break;
+        default:
+            console.log("Noting todo");
+            break;
+    }
+
+    fs.writeFile("random.txt", textWrite, function(err) {
+
+        if (err) {
+            return console.log(err);
+        }
+
+    });
+
+}
 module.exports = {
     myFiglet: myFiglet,
     mySpotify: showSongInfo,
     myMovie: getMovieInfo,
     myBdITown: getBdITown,
     myDoWhat: doWhatItSays,
-    myLog: logIt
+    myLog: logIt,
+    myWriteF: writeFile
 }
