@@ -588,3 +588,93 @@ Date Event: 10-26-2019, 7:30:00 pm
 Buy Ticket: https://www.bandsintown.com/t/1015113741?app_id=31d9e4d27457d868034c9e428932bd4d&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 ------------------------------------------------------------
 
+Artist: Demi Lovato
+
+Song: Sorry Not Sorry
+
+Album: Tell Me You Love Me (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/7gvd8xj4QgPqbQSsn5pV7d
+------------------------------------------------------------
+
+Artist: Justin Bieber
+
+Song: Sorry
+
+Album: Purpose (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/09CtPGIpYB4BrO8qb1RGsF
+------------------------------------------------------------
+
+Artist: Beyoncé
+
+Song: Sorry
+
+Album: Lemonade
+
+Spotify Link: https://open.spotify.com/track/0lnIJmgcUpEpe4AZACjayW
+------------------------------------------------------------
+
+Artist: Demi Lovato
+
+Song: Sorry Not Sorry - Acoustic
+
+Album: Autumn Tunes
+
+Spotify Link: https://open.spotify.com/track/0YAHNgEr1g04aRF5oTPWlH
+------------------------------------------------------------
+
+Artist: Halsey
+
+Song: Sorry
+
+Album: hopeless fountain kingdom (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/44n97yHySt0Z9rqPaXgjCK
+------------------------------------------------------------
+
+Artist: Demi Lovato
+
+Song: Sorry Not Sorry
+
+Album: Tell Me You Love Me (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/7gvd8xj4QgPqbQSsn5pV7d
+------------------------------------------------------------
+
+Artist: Justin Bieber
+
+Song: Sorry
+
+Album: Purpose (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/09CtPGIpYB4BrO8qb1RGsF
+------------------------------------------------------------
+
+Artist: Beyoncé
+
+Song: Sorry
+
+Album: Lemonade
+
+Spotify Link: https://open.spotify.com/track/0lnIJmgcUpEpe4AZACjayW
+------------------------------------------------------------
+
+Artist: Halsey
+
+Song: Sorry
+
+Album: hopeless fountain kingdom (Deluxe)
+
+Spotify Link: https://open.spotify.com/track/44n97yHySt0Z9rqPaXgjCK
+------------------------------------------------------------
+
+Artist: Demi Lovato
+
+Song: Sorry Not Sorry - Acoustic
+
+Album: Autumn Tunes
+
+Spotify Link: https://open.spotify.com/track/0YAHNgEr1g04aRF5oTPWlH
+------------------------------------------------------------
+
