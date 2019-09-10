@@ -256,7 +256,7 @@ let doWhatItSays = function() {
         }
         let dataArr = data.split(",");
         let action = dataArr[0];
-        let searchElem = dataArr[1];
+        let searchElem = dataArr[1].slice(1, -1);
         console.log(action, searchElem);
         switch (action) {
             case "spotify-this-song":
